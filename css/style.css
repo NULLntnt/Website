@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+/* Start Variables */
+
+
+/* End Variables */
+
+/* start global rules */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+/* End global rules */
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    display: list-item;
+    text-align: center;
+}
+/* start index.html */
+/* Start Header? */
+#logo{
+    max-width: 100%;
+    height: auto;
+    width: 50px;
+    height: 50px;
+
+}
+header{
+    background-color: rgb(8, 16, 41);
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+header nav ul a {
+    padding: 30px 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    z-index: 2;
+    font-weight: bold; 
+    border-bottom: white solid 2px;   
+}
+header nav ul a:hover{
+    color: rgb(14, 201, 226);
+    border-bottom: rgb(14, 201, 226) solid 2px;
+}
+header ul .active{
+    color: rgb(14, 201, 226);
+    border-bottom: rgb(14, 201, 226) solid 2px;
+}
+/* End Header */
+
+/* Start Content */
+.landing {
+    border-top: solid gray 1px;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vh;
+    border-bottom: solid gray 1px;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.landing p, h2{
+    color: white;
+}
+.landing .container{
+    position: absolute;
+    top: 10%; 
+    right: 10%;
+    background-color: rgba(48, 12, 75, 0.776);
+    border-radius: 10px;
+}
+.landing .phone{
+    color:  rgb(18, 208, 53);
+}
+.landing button{
+    background-color:  rgb(18, 88, 208);
+}
+/* End Content */
+
+/* Start Content2 */
+.items{
+    background-color: rgb(8, 16, 41);
+    min-height:fit-content;
+    min-width: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+    border-bottom: solid 1px gray;
+}
+.items .container{
+}
+.items ul{
+    display: flex;
+    justify-content: space-between;
+}
+.items img{
+    width: 100px;
+    height: 100px;
+}
+.items h3{
+    /* color: rgb(14, 201, 226); */
+    color: white;
+}
+/* End Content2 */
+
+/* Start Footer */
+.footer{
+    background-size: cover;
+    background-color: rgb(8, 16, 41);
+    display: flex;
+}
+.footer .container{
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer ul{
+    justify-content: center;
+}
+.footer ul a{
+    padding: 20px 30px;
+}
+.footer img{
+    width: 16px;
+}
+.footer p{
+    color: white;
+    text-align: center;
+}
+/* End Footer */
+/* End Index.html */
+
+/* Start page2.html */
+
+/* End page2.html */
