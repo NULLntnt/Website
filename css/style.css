@@ -108,7 +108,6 @@ header ul .active{
     background-color: rgb(8, 16, 41);
     min-height:fit-content;
     min-width: 100vh;
-    /* background-color: aqua; */
     display: flex;
     border-bottom: solid 1px gray;
 }
@@ -123,7 +122,6 @@ header ul .active{
     height: 100px;
 }
 .items h3{
-    /* color: rgb(14, 201, 226); */
     color: white;
 }
 /* End Content2 */
@@ -158,3 +156,40 @@ header ul .active{
 /* Start page2.html */
 
 /* End page2.html */
+
+/* Start page3.html */
+.item{
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    min-width: 100vh;
+    max-height: 20vh;
+    min-height: 20vh;
+    background-color: rgb(8, 16, 41);
+    background-image: url('https://img.freepik.com/free-photo/moon-light-shine-through-window-into-islamic-mosque-interior_1217-2597.jpg?w=1380&t=st=1662067661~exp=1662068261~hmac=9cf1ce0c5448e4bef51cdd33fb24bfe5d4e7f067915493fe2dd3ab78746460d3');
+    background-size: cover;
+    align-items: center;
+}
+.item h2{
+    padding-top: 20px;
+    text-align: center;
+}
+.item-menu{
+    min-width: 100vh;
+    min-height: 100vh;
+    padding: 100px 50px;
+    background-color: rgb(8, 16, 41);
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/143/058/original/islamic-ornaments-dark-blue-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 1px gray;
+}
+.item-menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.item-menu img{
+    width: 330px;
+    height: 170;
+}
+/* End page3.html */
