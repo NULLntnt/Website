@@ -189,7 +189,7 @@ header ul .active{
     justify-content: space-between;
 }
 .item-menu img{
-    width: 330px;
-    height: 170;
+        min-width: 25vh;
+    min-height: 15vh;
 }
 /* End page3.html */
