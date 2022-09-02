@@ -188,7 +188,7 @@ header ul .active{
     justify-content: space-between;
 }
 .item-menu img{
-        min-width: 25vh;
-    min-height: 15vh;
+    width: 25vh;
+    height: 15vh;
 }
 /* End page3.html */
